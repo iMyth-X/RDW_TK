@@ -25,6 +25,7 @@ void AtestCharacter::Tick(float DeltaTime)
 
 	float apple = 69.69;
 	float banana = 84.84;
+	float kiwi = 99.99;
 }
 
 // Called to bind functionality to input
