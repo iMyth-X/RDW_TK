@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{A4CD8D62-7627-44F7-A0BC-E2BA3EFE8D5C}"
 EndProject
@@ -60,7 +60,8 @@ Global
 		{130AEF3B-06E0-414E-93C8-BC4752A2E5BB}.Shipping|Win32.Build.0 = BuiltWithUnrealBuildTool|Win32
 		{130AEF3B-06E0-414E-93C8-BC4752A2E5BB}.Shipping|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{130AEF3B-06E0-414E-93C8-BC4752A2E5BB}.Shipping|Win64.Build.0 = BuiltWithUnrealBuildTool|Win32
-		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|HTML5.ActiveCfg = HTML5_DebugGame_Editor|Win32
+		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|HTML5.ActiveCfg = Development_Editor|x64
+		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|HTML5.Build.0 = Development_Editor|x64
 		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|Win32.ActiveCfg = DebugGame_Editor|Win32
 		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
 		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|Win64.Build.0 = DebugGame_Editor|x64
@@ -93,5 +94,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{130AEF3B-06E0-414E-93C8-BC4752A2E5BB} = {A4CD8D62-7627-44F7-A0BC-E2BA3EFE8D5C}
 		{BF0EFDCA-C510-4C7C-A278-E582991259D1} = {0D8128AC-8344-487A-A7D6-30FB1922B0F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDE66150-349F-4D68-B27B-64E23AFCDC35}
 	EndGlobalSection
 EndGlobal
