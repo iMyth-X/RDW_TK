@@ -1,3 +1,3 @@
-D:\VRProjects\RDW_TK\Source\RDW_TK\RDW_TK.Build.cs
-D:\VRProjects\RDW_TK\Source\RDW_TK.Target.cs
-D:\VRProjects\RDW_TK\Source\RDW_TKEditor.Target.cs
+C:\Storage\SSD2\UE4Projects\RDW_TK\Source\RDW_TK\RDW_TK.Build.cs
+C:\Storage\SSD2\UE4Projects\RDW_TK\Source\RDW_TK.Target.cs
+C:\Storage\SSD2\UE4Projects\RDW_TK\Source\RDW_TKEditor.Target.cs

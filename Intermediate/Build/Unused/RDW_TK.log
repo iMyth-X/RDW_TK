@@ -1,13 +1,8 @@
-﻿  Performing full C++ include scan (hot reloading a new target)
-  Compiling game modules for hot reload
-  Parsing headers for RDW_TKEditor
-    Running UnrealHeaderTool "D:\VRProjects\RDW_TK\RDW_TK.uproject" "D:\VRProjects\RDW_TK\Intermediate\Build\Win64\RDW_TKEditor\Development\RDW_TKEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for RDW_TKEditor in 9.8733274 seconds
-  Performing 3 actions (4 in parallel)
+﻿  Performing 3 actions (4 in parallel)
   testCharacter.cpp
-  [2/3] Link UE4Editor-RDW_TK-1409.dll
-  [3/3] Link UE4Editor-RDW_TK-1409.lib
-     Creating library D:\VRProjects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK-1409.lib and object D:\VRProjects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK-1409.exp
-     Creating library D:\VRProjects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK-1409.suppressed.lib and object D:\VRProjects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK-1409.suppressed.exp
+  [2/3] Link UE4Editor-RDW_TK.dll
+  [3/3] Link UE4Editor-RDW_TK.lib
+     Creating library C:\Storage\SSD2\UE4Projects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK.lib and object C:\Storage\SSD2\UE4Projects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK.exp
+     Creating library C:\Storage\SSD2\UE4Projects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK.suppressed.lib and object C:\Storage\SSD2\UE4Projects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK.suppressed.exp
   Deploying RDW_TKEditor Win64 Development...
-  Total build time: 29.12 seconds (Local executor: 7.98 seconds)
+  Total build time: 2.50 seconds (Local executor: 1.84 seconds)
