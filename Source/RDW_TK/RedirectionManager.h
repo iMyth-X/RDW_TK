@@ -87,7 +87,19 @@ public:
 	// SPACEHOLDER "HeadFollower"
 	UObject headFollower;
 
+	FVector currPos, currPosReal, prevPos, prevPosReal;
+	FVector currDir, currDirReal, prevDir, prevDirReal;
+	FVector deltaPos;
+	float deltaDir;
 
+	// SPACEHOLDER "transform"
+	UObject targetWayPoint;
+
+	bool inReset = false;
+	FString startTimeOfProgram;
 
 	~RedirectionManager();
+
+private:
+	float simulatedTime = 0.0f;
 };

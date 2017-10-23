@@ -1,58 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\RDW_TK.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{3EFEBAD5-8763-4855-A420-9E93A7E9692D}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\RDW_TK.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\RDW_TKEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{D3F14A80-A485-4977-9E3E-BCB35C73DB73}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\RDW_TK">
-			<UniqueIdentifier>{429A3918-3345-45CA-8066-DECA36CC7677}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\RDW_TK\RDW_TK.Build.cs">
-			<Filter>Source\RDW_TK</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\RDW_TK\RDW_TK.cpp">
-			<Filter>Source\RDW_TK</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\RDW_TK\RDW_TK.h">
-			<Filter>Source\RDW_TK</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\RDW_TK\RDW_TKGameModeBase.cpp">
-			<Filter>Source\RDW_TK</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\RDW_TK\RDW_TKGameModeBase.h">
-			<Filter>Source\RDW_TK</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\RDW_TK\RedirectionManager.cpp">
-			<Filter>Source\RDW_TK</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\RDW_TK\RedirectionManager.h">
-			<Filter>Source\RDW_TK</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\RDW_TK\testCharacter.cpp">
-			<Filter>Source\RDW_TK</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\RDW_TK\testCharacter.h">
-			<Filter>Source\RDW_TK</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\RDW_TK.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3EFEBAD5-8763-4855-A420-9E93A7E9692D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RDW_TK.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RDW_TKEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D3F14A80-A485-4977-9E3E-BCB35C73DB73}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RDW_TK">
+      <UniqueIdentifier>{429A3918-3345-45CA-8066-DECA36CC7677}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RDW_TK\RDW_TK.Build.cs">
+      <Filter>Source\RDW_TK</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RDW_TK\RDW_TK.cpp">
+      <Filter>Source\RDW_TK</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RDW_TK\RDW_TK.h">
+      <Filter>Source\RDW_TK</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RDW_TK\RDW_TKGameModeBase.cpp">
+      <Filter>Source\RDW_TK</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RDW_TK\RDW_TKGameModeBase.h">
+      <Filter>Source\RDW_TK</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RDW_TK\RedirectionManager.cpp">
+      <Filter>Source\RDW_TK</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RDW_TK\RedirectionManager.h">
+      <Filter>Source\RDW_TK</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RDW_TK\testCharacter.cpp">
+      <Filter>Source\RDW_TK</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RDW_TK\testCharacter.h">
+      <Filter>Source\RDW_TK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\RDW_TK\Redirector.h">
+      <Filter>Source\RDW_TK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\RDW_TK\Redirector.cpp">
+      <Filter>Source\RDW_TK</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

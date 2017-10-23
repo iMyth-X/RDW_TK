@@ -1,12 +1,4 @@
-﻿  Compiling game modules for hot reload
-  Parsing headers for RDW_TKEditor
-    Running UnrealHeaderTool "D:\Games\UE4\RDW_TK\RDW_TK.uproject" "D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\RDW_TKEditor\Development\RDW_TKEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for RDW_TKEditor in 7.1183482 seconds
-  Performing 3 actions (4 in parallel)
-  RedirectionManager.cpp
-  [2/3] Link UE4Editor-RDW_TK-8165.dll
-  [3/3] Link UE4Editor-RDW_TK-8165.lib
-     Creating library D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK-8165.lib and object D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK-8165.exp
-     Creating library D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK-8165.suppressed.lib and object D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK-8165.suppressed.exp
-  Deploying RDW_TKEditor Win64 Development...
-  Total build time: 20.27 seconds (Local executor: 6.03 seconds)
+﻿  Target is up to date
+  Deploying RDW_TK Win64 Development...
+  Prepping UE4 for deployment to Win64
+  Total build time: 1.21 seconds (NoActionsToExecute executor: 0.00 seconds)

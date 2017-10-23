@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source"
-/I D:\Games\UE4\RDW_TK\Source
-/I D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Inc\RDW_TK
-/I D:\Games\UE4\RDW_TK\Source\RDW_TK
+/I C:\Storage\SSD2\UE4Projects\RDW_TK\Source
+/I C:\Storage\SSD2\UE4Projects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Inc\RDW_TK
+/I C:\Storage\SSD2\UE4Projects\RDW_TK\Source\RDW_TK
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Async"
@@ -356,9 +356,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Games\UE4\RDW_TK\Source\RDW_TK\RDW_TK.cpp"
-/FI"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\Definitions.RDW_TK.h"
-/Fo"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\RDW_TK.cpp.obj"
+"C:\Storage\SSD2\UE4Projects\RDW_TK\Source\RDW_TK\RDW_TK.cpp"
+/FI"C:\Storage\SSD2\UE4Projects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\Definitions.RDW_TK.h"
+/Fo"C:\Storage\SSD2\UE4Projects\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\RDW_TK.cpp.obj"
 /TP
 /GR-
 /W4
