@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-RDW_TK-4630.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\RDW_TK.cpp.obj"
+"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\RDW_TKGameModeBase.cpp.obj"
+"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\RedirectionManager.cpp.obj"
+"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\testCharacter.cpp.obj"
+"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\RDW_TK.init.gen.cpp.obj"
+"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\RDW_TKGameModeBase.gen.cpp.obj"
+"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\testCharacter.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\RDW_TK\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Games\UE4\RDW_TK\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RDW_TK-4630.lib"

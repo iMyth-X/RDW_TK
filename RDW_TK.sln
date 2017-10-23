@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{A4CD8D62-7627-44F7-A0BC-E2BA3EFE8D5C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{196408E7-EF3E-4D78-BC51-360DEBE8E8B9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{0D8128AC-8344-487A-A7D6-30FB1922B0F3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{35AB3D14-B5FE-44D1-A23E-A656F57E6F3A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{130AEF3B-06E0-414E-93C8-BC4752A2E5BB}"
 EndProject
@@ -60,8 +60,7 @@ Global
 		{130AEF3B-06E0-414E-93C8-BC4752A2E5BB}.Shipping|Win32.Build.0 = BuiltWithUnrealBuildTool|Win32
 		{130AEF3B-06E0-414E-93C8-BC4752A2E5BB}.Shipping|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{130AEF3B-06E0-414E-93C8-BC4752A2E5BB}.Shipping|Win64.Build.0 = BuiltWithUnrealBuildTool|Win32
-		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|HTML5.ActiveCfg = Development_Editor|x64
-		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|HTML5.Build.0 = Development_Editor|x64
+		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|HTML5.ActiveCfg = HTML5_DebugGame_Editor|Win32
 		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|Win32.ActiveCfg = DebugGame_Editor|Win32
 		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
 		{BF0EFDCA-C510-4C7C-A278-E582991259D1}.DebugGame Editor|Win64.Build.0 = DebugGame_Editor|x64
@@ -92,10 +91,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{130AEF3B-06E0-414E-93C8-BC4752A2E5BB} = {A4CD8D62-7627-44F7-A0BC-E2BA3EFE8D5C}
-		{BF0EFDCA-C510-4C7C-A278-E582991259D1} = {0D8128AC-8344-487A-A7D6-30FB1922B0F3}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BDE66150-349F-4D68-B27B-64E23AFCDC35}
+		{130AEF3B-06E0-414E-93C8-BC4752A2E5BB} = {196408E7-EF3E-4D78-BC51-360DEBE8E8B9}
+		{BF0EFDCA-C510-4C7C-A278-E582991259D1} = {35AB3D14-B5FE-44D1-A23E-A656F57E6F3A}
 	EndGlobalSection
 EndGlobal
