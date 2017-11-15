@@ -4240,6 +4240,8 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeRDW_TK_init();
     extern void EmptyLinkFunctionForGeneratedCodeRDW_TKGameModeBase();
     EmptyLinkFunctionForGeneratedCodeRDW_TKGameModeBase();
+    extern void EmptyLinkFunctionForGeneratedCodeRedirectionManager();
+    EmptyLinkFunctionForGeneratedCodeRedirectionManager();
     extern void EmptyLinkFunctionForGeneratedCodetestCharacter();
     EmptyLinkFunctionForGeneratedCodetestCharacter();
     extern void EmptyLinkFunctionForGeneratedCodeSlateReflector_init();

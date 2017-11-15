@@ -1,4 +1,13 @@
-﻿  Target is up to date
+﻿  Parsing headers for RDW_TK
+    Running UnrealHeaderTool "C:\Storage\SSD2\UE4Projects\RDW_TK\RDW_TK.uproject" "C:\Storage\SSD2\UE4Projects\RDW_TK\Intermediate\Build\Win64\RDW_TK\Development\RDW_TK.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for RDW_TK in 3.9767766 seconds
+  Performing 5 actions (4 in parallel)
+  Redirector.cpp
+  RedirectionManager.cpp
+  RDW_TK.init.gen.cpp
+  RedirectionManager.gen.cpp
+  [5/5] Link RDW_TK.exe
+     Creating library C:\Storage\SSD2\UE4Projects\RDW_TK\Binaries\Win64\RDW_TK.lib and object C:\Storage\SSD2\UE4Projects\RDW_TK\Binaries\Win64\RDW_TK.exp
   Deploying RDW_TK Win64 Development...
   Prepping UE4 for deployment to Win64
-  Total build time: 1.21 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 17.04 seconds (Local executor: 12.43 seconds)

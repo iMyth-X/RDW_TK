@@ -3,16 +3,23 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GameFramework/Character.h"
+#include "RedirectionManager.generated.h"
 
 /**
  * 
  */
-class RDW_TK_API RedirectionManager
-{
-public:
-	RedirectionManager();
 
-	enum MovementController { keyboard, AutoPilot, Tracker };
+UENUM(BlueprintType)
+enum EMovementController { keyboard, AutoPilot, Tracker };
+
+UCLASS()
+class RDW_TK_API ARedirectionManager: public ACharacter
+{
+	GENERATED_BODY()
+
+public:
+	ARedirectionManager();
 
 	//AddToolTip: "Select if you wish to run simulation from commandline in UE4 batchmode."
 	//Needed?
@@ -20,8 +27,9 @@ public:
 		bool runInTestMode = false;
 
 	//AddToolTip: "How user movement is controlled"
-	UPROPERTY(EditAnywhere, Category = "Redirected Walking")
-		MovementController MOVEMENT_CONTROLLER = Tracker;
+	/****************   Gotto Fix!!!! *****************************/
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Redirected Walking")
+	//	EMovementController MOVEMENT_CONTROLLER = Tracker;
 
 	//ToolTip: "Maximum translation gain applied"
 	//Range: (0, 5)
@@ -50,8 +58,10 @@ public:
 
 	//ToolTip: "Game Object that is being physically tracked (Probably user's head)"
 	// SPACEHOLDER
+	// Not sure why I needed this to be a pointer
+	// However, since this is just a place holder for the time being, I'll let it sit
 	UPROPERTY(EditAnywhere, Category = "Redirected Walking")
-		UObject headTransform;
+		UObject *headTransform;
 
 	//ToolTip: "Use simulated framerate in auto-pilot mode"
 	UPROPERTY(EditAnywhere, Category = "Redirected Walking")
@@ -98,8 +108,18 @@ public:
 	bool inReset = false;
 	FString startTimeOfProgram;
 
-	~RedirectionManager();
+	//~RedirectionManager();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 
 private:
 	float simulatedTime = 0.0f;
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 };

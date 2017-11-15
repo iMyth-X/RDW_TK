@@ -11,7 +11,7 @@
 class RDW_TK_API Redirector
 {
 public:
-	RedirectionManager *redirectionManager;
+	ARedirectionManager *redirectionManager;
 
 	Redirector();
 
